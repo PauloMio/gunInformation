@@ -1,0 +1,136 @@
+/* layout.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* Set desired font */
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #555;
+  /* Gray background color */
+  width: 100%;
+  /* Full width */
+  text-align: center;
+  /* Center align */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+
+.navbar a {
+  display: inline-block;
+  color: rgb(252, 252, 252);
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  /* Larger font size for icons */
+}
+
+.navbar a:hover {
+  background-color: #777;
+  /* Darker gray on hover */
+}
+
+.navbar a.active {
+  background-color: #333;
+  /* Dark gray for active */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  /* Center align content horizontally */
+  align-items: center;
+  /* Center align content vertically */
+  min-height: 100vh;
+  /* Set minimum height to viewport height */
+  background-size: cover;
+  background-position: center;
+}
+
+.gun-info-btn {
+  display: inline-block;
+  background-color: #f0f0f0;
+  /* Background color of the button */
+  border-radius: 10px;
+  /* Rounded corners for the button */
+  padding: 20px;
+  text-align: left;
+  /* Align text to the left */
+  text-decoration: none;
+  color: #333;
+  /* Text color */
+  margin: 10px;
+}
+
+.gun-info-icon {
+  width: 100px;
+  /* Width of the gun image container */
+  height: 100px;
+  /* Height of the gun image container */
+  overflow: hidden;
+  /* Hide overflowing content */
+  border: 1px solid #ccc;
+  /* Border for the container */
+  border-radius: 5px;
+  /* Rounded corners for the container */
+  margin-right: 20px;
+  /* Margin to create space between icon and text */
+}
+
+.gun-info-icon img {
+  width: 100%;
+  /* Make the image fill the container */
+  height: auto;
+  /* Maintain aspect ratio */
+}
+
+.gun-info-text h3 {
+  margin-top: 0;
+  /* Remove margin from the top of the heading */
+}
+
+.gun-info-text p {
+  margin-bottom: 0;
+  /* Remove margin from the bottom of the paragraph */
+}
+
+/* layout.css */
+
+/* Add your existing CSS styles here */
+
+#GUNINFORMATION {
+
+  text-align: center;
+  /* Center align the articles */
+}
+
+#GUNINFORMATION h3 {
+  color: rgb(253, 253, 253);
+  text-align: center;
+  font-style: oblique;
+  background-color: rgb(114, 15, 15);
+  height: 10%;
+  width: 100%;
+}
+
+
+#GUNINFORMATION article {
+  display: inline-block;
+  /* Display articles side by side */
+  width: 30%;
+  /* Set the width of each article */
+  margin: 0 10px;
+  /* Add some margin between articles */
+  vertical-align: top;
+  /* Align articles to the top */
+  background-color: rgb(114, 15, 15);
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(253, 253, 253);
+  border-left: 400pcs;
+}
